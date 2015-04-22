@@ -1,0 +1,20 @@
+{
+  "name": "pecan",
+  "version": "0.0.0",
+  "homepage": "https://github.com/khwang/pecan",
+  "authors": [
+    "Kevin Hwang <k3vinhwang@gmail.com>"
+  ],
+  "description": "A recipe site",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.2"
+  }
+}
