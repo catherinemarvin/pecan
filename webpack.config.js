@@ -20,5 +20,7 @@ var config = {
 };
 
 config.addVendor("react", bower_dir + "/react/react.min.js");
+config.addVendor("bootstrap", bower_dir + "/bootstrap/bootstrap.min.js");
+config.addVendor("bootstrap.css", bower_dir + "/bootstrap/bootstrap.min.css");
 
 module.exports = config;
