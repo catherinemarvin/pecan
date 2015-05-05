@@ -12,3 +12,9 @@ butter = Food.create(name: "Butter")
 
 grilled_cheese = Recipe.create(name: "Grilled cheese")
 grilled_cheese.foods = [cheddar, bread, butter]
+
+snickers = Food.create(name: "Snickers")
+pinkie_pie_sandwich = Recipe.create(name: "Pinkie Pie Sandwich")
+pinkie_pie_sandwich.foods = [bread, snickers]
+
+
