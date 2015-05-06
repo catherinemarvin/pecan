@@ -1,7 +1,7 @@
 var Recipe = React.createClass({
   propTypes: {
-    title: React.PropTypes.string,
-    backgroundUrl: React.PropTypes.string
+    title: React.PropTypes.string.isRequired,
+    backgroundUrl: React.PropTypes.string.isRequired
   },
 
   render: function() {
