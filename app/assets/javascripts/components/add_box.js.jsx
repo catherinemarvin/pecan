@@ -1,6 +1,10 @@
 var AddBox = React.createClass({
 
   render: function() {
-    return <div />;
+    return (
+      <form>
+        <input type="text" placeholder="Search..."></input>
+      </form>
+    );
   }
 });
